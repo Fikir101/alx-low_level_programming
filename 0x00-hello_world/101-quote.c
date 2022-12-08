@@ -7,6 +7,5 @@
 int main(void)
 {
 	write(2, "and that peace of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	fprintf("Error");
 	return (1);
 }
