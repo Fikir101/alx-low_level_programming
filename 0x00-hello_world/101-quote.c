@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	write(1, "and that peace of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	fprintf(stderr, "");
+	write(1, "and that peace of art is useful\" - Dora Korpar, 2015-10-19\n", 60);
+	fprintf(stderr, " ");
 	return (1);
 }
