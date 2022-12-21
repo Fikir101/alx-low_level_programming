@@ -2,26 +2,25 @@
 
 /**
  * _strcat - concatinate two string
- * @d: char
- * @s: char
+ * @dest: char
+ * @src: char
  * Return: char
  */
-
-char *_strcat(char *d, char *s)
+char *_strcat(char *dest, char *src)
 {
-	char *f = d;
+	char *s = dest;
 
-	while (*d != '\0')
+	while (*dest != '\0')
 	{
-		d++;
+		dest++;
 	}
 
-	while (*s != '\0')
+	while (*src != '\0')
 	{
-		*d = *s;
-		d++;
-		s++;
+		*dest = *src;
+		dest++;
+		src++;
 	}
-	*d = '\0';
-	return (f);
+	*dest = '\0';
+	return (s);
 }
