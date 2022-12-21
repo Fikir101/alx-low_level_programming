@@ -14,7 +14,7 @@ char *string_toupper(char *s)
 	{
 		if (*(s + i) >= 'a' && *(s + i) <= 'z')
 			*(s + i) -= 'a' - 'A';
-			i++;
+		i++;
 	}
 	return (s);
 }
