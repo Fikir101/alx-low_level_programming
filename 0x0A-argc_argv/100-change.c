@@ -24,7 +24,8 @@ int main(int argc, char **argv)
 	count = 0;
 	if (!*p)
 	{
-		while (total > 1)																	{
+		while (total > 1)
+		{
 			for (i = 0; i < sizeof(cents[i]); i++)
 			{
 				if (total >= cents[i])
